@@ -41,6 +41,12 @@
             min-width: 250px;
         }
 
+        /* Added extra spacing before My Projects */
+        #projects {
+            padding-top: 4rem;
+            margin-top: 2rem;
+        }
+
         @media (max-width: 600px) {
             .header-content {
                 flex-direction: column;
@@ -63,122 +69,4 @@
 <header>
     <div class="container">
         <div class="header-content">
-            <img src="assets/images/IMG_2127.JPG" alt="Bryan Jonathan Martin" class="profile-photo">
-
-            <div class="header-text">
-                <h1>Bryan Jonathan Martin</h1>
-                <p>Data Analyst</p>
-                <div class="social-links">
-                    <a href="https://www.linkedin.com/in/jonathan-martin-56684796/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
-                    <a href="https://bryanjmartin.github.io/jonathan_portfolio/" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="fab fa-github"></i></a>
-                    <a href="assets/images/Bryan%20Jonathan%20Martin%20Resume.pdf" download title="Download CV"><i class="fas fa-file-arrow-down"></i></a>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
-
-<nav>
-    <div class="container">
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </div>
-</nav>
-
-<section id="about" class="section">
-    <div class="container">
-        <h2>About Me</h2>
-        <div class="about-text">
-            <p>I'm a data professional with expertise in transforming complex datasets into actionable insights. My work focuses on creating interactive visualizations and data-driven stories that help organizations make informed decisions.</p>
-            <p>With experience in Power BI, SQL, and data modeling, I specialize in developing comprehensive reports that reveal hidden patterns and trends in data. This portfolio showcases my projects across various sectors.</p>
-        </div>
-    </div>
-</section>
-
-<section id="skills" class="section">
-    <div class="container">
-        <h2>Technical Skillset</h2>
-        <div class="skills-table">
-            <div class="skill-column">
-                <div class="skill-header">
-                    <i class="fas fa-chart-pie"></i>
-                    <h3>Data Visualization</h3>
-                </div>
-                <ul class="skill-list">
-                    <li>Tableau</li>
-                    <li>Power BI</li>
-                    <li>Alteryx Workflow</li>
-                    <li>Excel Dashboards</li>
-                </ul>
-            </div>
-
-            <div class="skill-column">
-                <div class="skill-header">
-                    <i class="fas fa-search-plus"></i>
-                    <h3>Data Analysis</h3>
-                </div>
-                <ul class="skill-list">
-                    <li>SQL</li>
-                    <li>Advanced Excel</li>
-                    <li>Google Sheets</li>
-                </ul>
-            </div>
-
-            <div class="skill-column">
-                <div class="skill-header">
-                    <i class="fas fa-cogs"></i>
-                    <h3>Data Modeling & ETL</h3>
-                </div>
-                <ul class="skill-list">
-                    <li>Star Schema Design</li>
-                    <li>Alteryx Workflow</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<section id="projects" class="section">
-    <div class="container">
-        <h2>My Projects</h2>
-        <div class="projects-grid">
-
-            <div class="project-card">
-                <h3>FTE Projection Model</h3>
-                <p>This project extracts case data from a case management database, along with employee data from Workday, over a defined period. The combined data is processed through a scheduled, automated workflow in Alteryx and then visualized in Tableau. The dashboard is designed to provide the business with a consolidated view of past, present, and future headcount/FTE and case volume. These insights are used to establish performance benchmarks and project future performance, helping identify teams with potential staffing gaps, backlog risks, or overstaffing. This enables leaders to drive meaningful operational discussions focused on efficiency and addressing potential risks or gaps.</p>
-                <img src="assets/images/FTE Projection Model_ExecutiveSummary.png" alt="FTE Projection Model preview">
-                <a href="assets/images/FTE%20Projection%20Model_Summary.png" target="_blank" rel="noopener noreferrer" class="btn">Click here to see the Summary View</a>
-                <a href="assets/images/FTE%20Projection%20Model_ManagerView.png" target="_blank" rel="noopener noreferrer" class="btn">Click here to see the Manager View</a>
-            </div>
-
-            <div class="project-card">
-                <h3>Weekly Call Centre Performance Summary</h3>
-                <p>Provides a weekly summary of the call center’s performance, as well as month-over-month performance trends, highlighting key performance indicators.</p>
-                <img src="assets/images/Weekly Call Centre Summary_Overview.png" alt="Weekly Call Centre Performance Summary preview">
-                <a href="assets/images/Weekly%20Call%20Centre%20Summary%20Overview%202.png" target="_blank" rel="noopener noreferrer" class="btn">Click here to view the maximum wait time and average speed of answer for the previous week.</a>
-            </div>
-
-            <div class="project-card">
-                <h3>Vacation Calendar</h3>
-                <p>This dashboard gives team leaders a clear view of booked planned absences and available dates by day. The data is automatically retrieved, processed through a scheduled workflow, and visualized in Tableau.</p>
-                <img src="assets/images/vac_summary.png" alt="Vacation Calendar preview">
-                <a href="assets/images/vac_main.png" target="_blank" rel="noopener noreferrer" class="btn">Click here for the Agent View.</a>
-            </div>
-
-        </div>
-    </div>
-</section>
-
-<footer>
-    <div class="container">
-        <p>&copy; 2026 Bryan Jonathan Martin. All rights reserved.</p>
-    </div>
-</footer>
-
-<script src="assets/js/main.js"></script>
-</body>
-</html>
+            <img 
