@@ -29,8 +29,8 @@
         }
 
         .profile-photo {
-            width: 1500px;
-            height: 150px;
+            width: 100px;
+            height: 100px;
             border-radius: 50%;
             object-fit: cover;
             object-position: center;
@@ -41,10 +41,16 @@
             min-width: 250px;
         }
 
-        /* Added extra spacing before My Projects */
-        #projects {
-            padding-top: 4rem;
+        /* Add space before About Me, Technical Skillset, and My Projects headings */
+        #about h2,
+        #skills h2,
+        #projects h2 {
             margin-top: 2rem;
+        }
+
+        /* Add space before each project title */
+        .project-card h3 {
+            margin-top: 1rem;
         }
 
         @media (max-width: 600px) {
@@ -189,9 +195,4 @@
 
 <script src="assets/js/main.js"></script>
 </body>
-</html><body>
-
-<header>
-    <div class="container">
-        <div class="header-content">
-            <img 
+</html>
